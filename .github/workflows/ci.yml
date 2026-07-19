@@ -24,4 +24,13 @@ jobs:
         run: ruff check .
 
       - name: Run tests
-        run: pytest
+        run: |
+          set +e
+          pytest
+          status=$?
+          set -e
+          if [ "$status" -eq 5 ]; then
+            echo "No tests collected yet - that's expected until contributors add files."
+            exit 0
+          fi
+          exit "$status"
