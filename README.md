@@ -19,6 +19,9 @@ Python-Foundations-Hub is a library of small, focused Python modules covering:
   queues, trees).
 - **`ml_basics/`** — small, dependency-light machine learning utilities, including
   common **metrics** and **preprocessing** helpers.
+- **`foundations/`** — clean-code and best-practice modules: Pythonic idioms,
+  common gotchas, effective function design, idiomatic OOP, and performance
+  profiling (see the [foundations reference guide](docs/foundations/README.md)).
 
 Every single file in this project follows the same contract:
 
@@ -103,7 +106,9 @@ Python-Foundations-Hub/
 ├── algorithms/          # sorting/, searching/, math/ — one algorithm per file
 ├── data_structures/      # one data structure per file
 ├── ml_basics/            # metrics/, preprocessing/ — small ML utilities
+├── foundations/          # clean-code idioms, gotchas, OOP, profiling
 ├── tests/                 # mirrors the structure above, 1:1
+├── docs/foundations/     # clean-code developer reference guide
 ├── docs/translations/    # community-contributed README translations
 └── .github/               # issue templates, PR template, CI workflow
 ```
