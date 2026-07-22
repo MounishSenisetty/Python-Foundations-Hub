@@ -22,6 +22,9 @@ Python-Foundations-Hub is a library of small, focused Python modules covering:
 - **`foundations/`** — clean-code and best-practice modules: Pythonic idioms,
   common gotchas, effective function design, idiomatic OOP, and performance
   profiling (see the [foundations reference guide](docs/foundations/README.md)).
+- **`patterns/`** — pattern-wise DSA modules (two pointers, hash maps & sets,
+  linked lists, fast & slow pointers, sliding window, binary search) with
+  complexity analysis (see the [patterns reference guide](docs/patterns/README.md)).
 
 Every single file in this project follows the same contract:
 
@@ -107,8 +110,10 @@ Python-Foundations-Hub/
 ├── data_structures/      # one data structure per file
 ├── ml_basics/            # metrics/, preprocessing/ — small ML utilities
 ├── foundations/          # clean-code idioms, gotchas, OOP, profiling (see foundations/README.md)
+├── patterns/             # pattern-wise DSA modules (see patterns/README.md)
 ├── tests/                 # mirrors the structure above, 1:1
 ├── docs/foundations/     # clean-code developer reference guide
+├── docs/patterns/        # DSA patterns reference guide
 ├── docs/translations/    # community-contributed README translations
 └── .github/               # issue templates, PR template, CI workflow
 ```
